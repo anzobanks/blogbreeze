@@ -10,10 +10,10 @@ workflows:
         max_build_duration: 120
         integrations:
           app_store_connect: codemagic
-        environment:
-          ios_signing:
-            distribution_type: app_store
-            bundle_identifier: io.codemagic.flutteryaml
-          flutter: stable
-          xcode: latest # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
-          cocoapods: default
+        # environment:
+        #   ios_signing:
+        #     distribution_type: app_store
+        #     bundle_identifier: io.codemagic.flutteryaml
+        #   flutter: stable
+        #   xcode: latest # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
+        #   cocoapods: default
